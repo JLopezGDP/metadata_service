@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "s3_bucket": "savingstar-dev-jlopez",
+        "app_function": "metadataservice.app",
+        "manage_roles": false, // Disable Zappa client managing roles.
+        "role_name": "hello-app-dev-ZappaLambdaExecutionRole", // Name of your Zappa execution role. Optional, default: <project_name>-<env>-ZappaExecutionRole.
+        "role_arn": "arn:aws:iam::349540218887:role/hello-app-dev-ZappaLambdaExecutionRole"
+    }
+}
